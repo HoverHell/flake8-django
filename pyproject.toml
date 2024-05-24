@@ -13,6 +13,7 @@ classifiers=[
     "Topic :: Software Development :: Libraries :: Python Modules",
     "Topic :: Software Development :: Quality Assurance",
 ]
+packages = [{include = "flake8_django"}]
 
 [tool.poetry.plugins]
 [tool.poetry.plugins."flake8.extension"]
